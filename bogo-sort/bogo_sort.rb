@@ -28,4 +28,4 @@ until sorted?(list)
 end
 
 puts "\nSorted  : #{list}"
-puts "\nTries   : #{try_count}"
+puts "Tries   : #{try_count}"
