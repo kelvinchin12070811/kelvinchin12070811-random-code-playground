@@ -10,7 +10,7 @@
 # @param list [Array<Integer>] Array to sort
 # @return [Boolean] True if sorted, false if not
 def sorted?(list)
-  puts list.each_cons(2) { |a, b| return false if a > b }
+  list.each_cons(2) { |a, b| return false if a > b }
   true
 end
 
