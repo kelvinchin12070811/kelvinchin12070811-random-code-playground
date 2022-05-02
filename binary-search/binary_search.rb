@@ -27,6 +27,7 @@ def binary_search(list, item)
   list[mid] == item ? mid : -1
 end
 
+# @type [Array<Integer>]
 list = []
 26.times { list << rand(1..100) }
 list.sort!
