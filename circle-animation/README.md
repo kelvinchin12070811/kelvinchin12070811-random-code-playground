@@ -2,7 +2,7 @@
 
 Preview
 
-<iframe id="odysee-iframe" width="560" height="315" src="https://odysee.com/$/embed/trigo-circle-animation/918dac19cc300ab155bd142585c0b73ad1173bd4?r=9DKRu1Yrrvv2rQofYYB7HpLGDgQ8DgH7" allowfullscreen></iframe>
+[![preview](https://thumbnails.odycdn.com/optimize/s:784:441/quality:85/plain/https://thumbs.odycdn.com/45ba07faa3a38ceb3d10e5a5bf74953c.jpeg)](https://odysee.com/@Kelvinchin12070811:8/trigo-circle-animation:9?r=9DKRu1Yrrvv2rQofYYB7HpLGDgQ8DgH7)
 
 [View on Odysee](https://odysee.com/@Kelvinchin12070811:8/trigo-circle-animation:9?r=9DKRu1Yrrvv2rQofYYB7HpLGDgQ8DgH7)
 
