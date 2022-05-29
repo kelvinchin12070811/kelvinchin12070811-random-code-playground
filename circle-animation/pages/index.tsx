@@ -26,7 +26,7 @@ const Home: NextPage = () => {
     let newRotation = { rotation };
     timeline.current = anime({
       targets: newRotation,
-      rotation: [0, 359],
+      rotation: [359, 0],
       duration: 3000,
       loop: true,
       round: 1,
@@ -51,7 +51,7 @@ const Home: NextPage = () => {
       <Circle
         style={{
           transform: `translateX(250px)`,
-          rotate: `${rotation}deg`,
+          rotate: `${360 - rotation}deg`,
           backgroundColor: 'blue',
         }}
       />
