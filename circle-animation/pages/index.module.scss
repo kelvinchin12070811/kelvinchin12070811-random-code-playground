@@ -1,0 +1,32 @@
+$grid-line-color: hsl(0, 0%, 80%);
+$circle-radius: 250px;
+
+.mainContainer {
+    margin-top: 32px;
+    display: grid;
+    place-items: center;
+    margin-bottom: 32px;
+}
+
+.circleBase {
+    width: $circle-radius * 2;
+    height: $circle-radius * 2;
+    border: 1px solid $grid-line-color;
+    border-radius: 50%;
+}
+
+.gridLine {
+    height: $circle-radius * 2;
+    width: 1px;
+    border: 1px solid $grid-line-color;
+    position: absolute;
+    //transform: translateX(50%);
+}
+
+.circle {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: red;
+}
