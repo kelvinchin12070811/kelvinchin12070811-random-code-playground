@@ -2,7 +2,7 @@
 
 Preview
 
-[![preview](https://thumbnails.odycdn.com/optimize/s:784:441/quality:85/plain/https://thumbs.odycdn.com/45ba07faa3a38ceb3d10e5a5bf74953c.jpeg)](https://odysee.com/@Kelvinchin12070811:8/trigo-circle-animation:9?r=9DKRu1Yrrvv2rQofYYB7HpLGDgQ8DgH7)
+[![preview](https://thumbnails.odycdn.com/optimize/s:784:414/quality:85/plain/https://thumbs.odycdn.com/5b45f57fd871b88447685c1dab98a021.jpeg)](https://odysee.com/@Kelvinchin12070811:8/trigo-circle-animation:9?r=9DKRu1Yrrvv2rQofYYB7HpLGDgQ8DgH7)
 
 [View on Odysee](https://odysee.com/@Kelvinchin12070811:8/trigo-circle-animation:9?r=9DKRu1Yrrvv2rQofYYB7HpLGDgQ8DgH7)
 
