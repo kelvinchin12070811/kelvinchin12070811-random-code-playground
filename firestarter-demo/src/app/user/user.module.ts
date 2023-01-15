@@ -4,10 +4,12 @@ import { CommonModule } from '@angular/common';
 import { UserRoutingModule } from './user-routing.module';
 import { SharedModule } from '../shared/shared.module';
 import { LoginPageComponent } from './login-page/login-page.component';
+import { GoogleSgininDirective } from './google-sginin.directive';
 
 @NgModule({
   declarations: [
-    LoginPageComponent
+    LoginPageComponent,
+    GoogleSgininDirective
   ],
   imports: [CommonModule, UserRoutingModule, SharedModule],
 })
