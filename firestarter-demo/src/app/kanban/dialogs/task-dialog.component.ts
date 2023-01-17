@@ -52,7 +52,7 @@ export class TaskDialogComponent {
   }
 
   handleTaskDelete() {
-    this.boardService.removeTask(this.data.boardId, this.data.task);
+    this.boardService.removeTask(this.data.boardID, this.data.task);
     this.dialogRef.close();
   }
 }

@@ -28,7 +28,7 @@ export class BoardComponent {
     const dialogRef = this.dialog.open(TaskDialogComponent, {
       width: '500px',
       data: task
-        ? { task: { ...task }, isNew: false, boardID: this.board.id, idx }
+        ? { task: { ...task }, isNew: false, boardID: this.board.id, idx: idx }
         : { task: newTask, isNew: true },
     });
     dialogRef.afterClosed().subscribe((result) => {
