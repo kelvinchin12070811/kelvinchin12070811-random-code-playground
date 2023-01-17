@@ -45,4 +45,8 @@ export class BoardComponent {
       }
     });
   }
+
+  handleDelete(): void {
+    this.boardService.deleteBoard(this.board.id!);
+  }
 }
