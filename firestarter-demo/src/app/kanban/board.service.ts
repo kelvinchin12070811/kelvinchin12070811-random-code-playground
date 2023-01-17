@@ -14,8 +14,8 @@ import {
   collectionData,
   writeBatch,
 } from '@angular/fire/firestore';
-import { AngularFirestore } from '@angular/fire/compat/firestore';
 import { switchMap } from 'rxjs/operators';
+import { of, Observable } from 'rxjs';
 
 import { Board, Task } from './board.modal';
 
@@ -25,7 +25,6 @@ import { Board, Task } from './board.modal';
 export class BoardService {
   private fAuth = inject(Auth);
   private fStore = inject(Firestore);
-  private store = inject(AngularFirestore);
 
   /**
    * Create new board for the current user.
@@ -87,9 +86,11 @@ export class BoardService {
             where('uid', '==', user.uid),
             orderBy('priority')
           );
-          return collectionData<Board>(queryResult, { idField: 'id' });
+          return collectionData<Board>(queryResult, {
+            idField: 'id',
+          });
         } else {
-          return [];
+          return of([]);
         }
       })
     );
